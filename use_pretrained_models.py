@@ -1,14 +1,7 @@
 import io
 import os
-from base64 import b64encode,b64decode
-import seaborn as sb
 import numpy as np
 import keras
-import re
-import shutil
-import requests
-from flask import Flask
-from flask import request
 from keras.models import Sequential
 from keras.preprocessing import image
 from keras.applications.imagenet_utils import preprocess_input, decode_predictions
